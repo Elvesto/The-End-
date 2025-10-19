@@ -1,3 +1,27 @@
+@media (max-width: 600px) {
+  body {
+    padding: 20px;
+    flex-direction: column;
+    height: auto;
+  }
+
+  #countdown {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #countdown div {
+    padding: 15px;
+  }
+
+  #countdown span {
+    font-size: 32px;
+  }
+
+  #countdown p {
+    font-size: 14px;
+  }
+}
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -34,4 +58,30 @@ body {
 #countdown p {
   margin: 0;
   font-size: 16px;
+}
+
+/* 📱 Адаптив для телефонов */
+@media (max-width: 600px) {
+  body {
+    padding: 20px;
+    flex-direction: column;
+    height: auto;
+  }
+
+  #countdown {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #countdown div {
+    padding: 15px;
+  }
+
+  #countdown span {
+    font-size: 32px;
+  }
+
+  #countdown p {
+    font-size: 14px;
+  }
 }
