@@ -5,7 +5,7 @@ function updateCountdown() {
   const diff = targetDate - now;
 
   if (diff <= 0) {
-    document.getElementById("countdown").innerHTML = "<h2>Событие наступило!</h2>";
+    document.getElementById("countdown").innerHTML = "<h2>!!!THE END!!!! КОНЕЦ УРАААА</h2>";
     return;
   }
 
@@ -22,4 +22,5 @@ function updateCountdown() {
 
 // Обновление каждую секунду
 setInterval(updateCountdown, 1000);
+
 updateCountdown(); // Первоначальный вызов
