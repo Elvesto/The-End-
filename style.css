@@ -1,87 +1,64 @@
-@media (max-width: 600px) {
-  body {
-    padding: 20px;
-    flex-direction: column;
-    height: auto;
-  }
-
-  #countdown {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  #countdown div {
-    padding: 15px;
-  }
-
-  #countdown span {
-    font-size: 32px;
-  }
-
-  #countdown p {
-    font-size: 14px;
-  }
-}
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #1e1e2f;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #1e1e2f;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding: 0;
+    }
 
-.container {
-  text-align: center;
-}
+    .container {
+      text-align: center;
+    }
 
-#countdown {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  margin-top: 20px;
-}
+    #countdown {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 20px;
+    }
 
-#countdown div {
-  background: #29293d;
-  padding: 20px;
-  border-radius: 10px;
-}
+    #countdown div {
+      background: #29293d;
+      padding: 20px;
+      border-radius: 10px;
+    }
 
-#countdown span {
-  font-size: 48px;
-  display: block;
-}
+    #countdown span {
+      font-size: 48px;
+      display: block;
+    }
 
-#countdown p {
-  margin: 0;
-  font-size: 16px;
-}
+    #countdown p {
+      margin: 0;
+      font-size: 16px;
+    }
 
-/* 📱 Адаптив для телефонов */
-@media (max-width: 600px) {
-  body {
-    padding: 20px;
-    flex-direction: column;
-    height: auto;
-  }
+    /* Адаптивность для телефонов */
+    @media (max-width: 600px) {
+      body {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+      }
 
-  #countdown {
-    flex-direction: column;
-    gap: 10px;
-  }
+      #countdown {
+        flex-direction: column;
+        gap: 10px;
+      }
 
-  #countdown div {
-    padding: 15px;
-  }
+      #countdown div {
+        padding: 15px;
+      }
 
-  #countdown span {
-    font-size: 32px;
-  }
+      #countdown span {
+        font-size: 32px;
+      }
 
-  #countdown p {
-    font-size: 14px;
-  }
-}
+      #countdown p {
+        font-size: 14px;
+      }
+    }
